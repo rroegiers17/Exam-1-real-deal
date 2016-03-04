@@ -8,7 +8,8 @@ using namespace std;
 
 void Venue::addEvent(int time, string name)// adding an event to the venue
 {
-   
+    
+    numEvents++;
         
 }
 bool Venue::validTime(int time)// checking if time is already used in array
@@ -16,20 +17,13 @@ bool Venue::validTime(int time)// checking if time is already used in array
     
   
 }
-void Venue::findEvent(int time, Venue::scheduleEvents)
+void Venue::findEvent(int time) // finding an event with the time to get the name
 {
    
     
 }
-
-int myints[] = { 10, 20, 30, 40 };
-int * p;
-
-
-p = std::find (myints, myints+4, 30);
-if (p != myints+4)
-std::cout << "Element found in myints: " << *p << '\n';
-else
-std::cout << "Element not found in myints\n";
-
+void Venue::findEvent(string name) // finding an event with the name to get the time.
+{
+    
+}
 
