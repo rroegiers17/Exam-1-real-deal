@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2B237A9A1C88C9800021ECA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B237A991C88C9800021ECA7 /* main.cpp */; };
+		2B237AA21C88C9960021ECA7 /* Venue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B237AA01C88C9960021ECA7 /* Venue.cpp */; };
+		2B237AA51C88C9A20021ECA7 /* Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B237AA31C88C9A20021ECA7 /* Event.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		2B237A961C88C9800021ECA7 /* Exam 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Exam 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B237A991C88C9800021ECA7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2B237AA01C88C9960021ECA7 /* Venue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Venue.cpp; path = ../Venue.cpp; sourceTree = "<group>"; };
+		2B237AA31C88C9A20021ECA7 /* Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Event.cpp; path = ../Event.cpp; sourceTree = "<group>"; };
+		2B237AA61C88C9FF0021ECA7 /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Event.h; path = ../Event.h; sourceTree = "<group>"; };
+		2B237AA71C88CA140021ECA7 /* Venue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Venue.h; path = ../Venue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,10 @@
 		2B237A981C88C9800021ECA7 /* Exam 1 */ = {
 			isa = PBXGroup;
 			children = (
+				2B237AA71C88CA140021ECA7 /* Venue.h */,
+				2B237AA01C88C9960021ECA7 /* Venue.cpp */,
+				2B237AA61C88C9FF0021ECA7 /* Event.h */,
+				2B237AA31C88C9A20021ECA7 /* Event.cpp */,
 				2B237A991C88C9800021ECA7 /* main.cpp */,
 			);
 			path = "Exam 1";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B237AA51C88C9A20021ECA7 /* Event.cpp in Sources */,
 				2B237A9A1C88C9800021ECA7 /* main.cpp in Sources */,
+				2B237AA21C88C9960021ECA7 /* Venue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
